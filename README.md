@@ -18,6 +18,7 @@ After that export the function.
 Declare the all require file and also give port number,This port number helps the progrm to run the code. and connect mongodb .After connecting mongodb you show the message by using listener .then 
 It helps the programmer mongodb is sucessfully connected or not
 and then add middleware to pass the incoming body->url after that create urlroute for shorten the id.
+You cange the port number it is not compulsory to give same number.
  In Postman you have to write it run the post http://localhost:8000/shorten then click ->body -> raw
  then give original url and click send then generate new shortid to user and paste the id
  by using get method.
